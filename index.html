@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans|DM+Serif+Display&display=swap" rel="stylesheet">
+    <title>RAMOS_E3</title>
+</head>
+
+<body>
+    <div class="gradient-bg">
+        <div class="container">
+            <h1 id="heading">Register</h1>
+                <div class="two-columns">
+                    <div id="col1">
+                        <label for="fname">FIRST NAME</label><br>
+                        <input type="text" id="fname" name="fname">
+                    </div>
+                    <div id="col2">
+                        <label for="lname">LAST NAME</label><br>
+                        <input type="text" id="lname" name="lname"></div>
+                </div>
+                <label for="password">PASSWORD</label><br>
+                <input type="password" id="password" name="password"><br>
+                <label for="conpassword">CONFIRM PASSWORD</label><br>
+                <input type="password" id="conpassword" name="conpassword"><br>
+                <label for="email">EMAIL</label><br>
+                <input type="email" id="email" name="email">
+                <br><br>
+                <div id="wrap-button">
+                    <input type="submit" id="submit" onclick="validate()" value="SUBMIT">
+                </div>
+
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="validate.js"></script>
+</body>
+
+</html>
