@@ -1,3 +1,8 @@
+// RAMOS, Rethaniel A.
+// 11839864
+// CCAPDEV X22
+// 17 February 2020
+
 function validate() {
     var password = document.getElementById("password");
     var conpassword = document.getElementById("conpassword");
